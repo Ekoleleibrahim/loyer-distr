@@ -12,7 +12,7 @@
 </head>
 <body>
     <!-- MY HEADER -->
-    <header class="flex flex-row items-center justify-between px-10 py-3 shadow-sm shadow-orange-200 sticky top-0 bg-white">
+    <header class="flex flex-row items-center justify-between px-10 py-3 shadow-sm shadow-orange-200 sticky supports-[position]:sticky top-0 bg-white">
         <a href="index.html" class="text-xl flex items-center gap-1">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 21h19.5m-18-18v18m10.5-18v18m6-13.5V21M6.75 6.75h.75m-.75 3h.75m-.75 3h.75m3-6h.75m-.75 3h.75m-.75 3h.75M6.75 21v-3.375c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21M3 3h12m-.75 4.5H21m-3.75 3.75h.008v.008h-.008v-.008Zm0 3h.008v.008h-.008v-.008Zm0 3h.008v.008h-.008v-.008Z" />
@@ -36,7 +36,7 @@
                     <a href="#feedbacks" class="hover:text-orange-500">Testimonials</a>
                 </li>
                 <li>
-                    <a href="" class="hover:text-orange-500">Blogs</a>
+                    <a href="#blog" class="hover:text-orange-500">Blogs</a>
                 </li>
             </ul>
             <a href="" class="btn btn-orange">Contact me</a>
@@ -44,7 +44,7 @@
         <div class="md:hidden group">
             <input type="checkbox" id="burger" class="hidden">
             <label for="burger" class="cursor-pointer text-4xl font-bold text-orange-600 rotate-[90deg] block">|||</label>
-            <ul class="*:block *:text-center flex items-center flex-col gap-3 z-40 absolute left-0 top-full w-full bg-orange-500 py-4 translate-x-[-250px] opacity-0  transition-[all_2s_ease-out] group-has-[:checked]:translate-x-0 group-has-[:checked]:opacity-100">
+            <ul class="*:block *:text-center flex items-center flex-col gap-3 absolute z-[5000px] left-0 top-full w-full bg-orange-500 py-4 translate-x-[-250px] opacity-0  transition-[all_2s_ease-out] group-has-[:checked]:translate-x-0 group-has-[:checked]:opacity-100">
                 <li>
                     <a href="#accueil" class="hover:text-black text-white">Home</a>
                 </li>
@@ -394,6 +394,104 @@
                     </div>
                 </div>
           </section>
+          <!-- SECTION FIVE -->
+          <section id="blog">
+            <header class="text-center">
+                <h2>See our latest Blog</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi dignissimos repellendus natus alias explicabo rerum sapiente velit molestias autem atque asperiores eligendi nihil praesentium vitae, officia, doloremque minus hic enim!</p>
+            </header>
+            <div class="mt-10 grid max-lg:grid-cols-1 gap-5 grid-cols-3 justify-center">
+                <article>
+                    <a href="#" class="block hover:underline visited:text-violet-600">
+                        <h3>Offer</h3>
+                    </a>
+                    <div class="bg-orange-500/30 p-4 border-l-2 border-l-orange-600 inset-5 *:font-semibold *:mb-3">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores, exercitationem!</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus nulla odio voluptatem ea? Nisi, minima!</p>
+                    </div>
+                </article>
+                <article>
+                    <a href="#" class="block hover:underline visited:text-violet-600">
+                        <h3>Collaboration for house</h3>
+                    </a>
+                    <p class="mb-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, molestias!</p>
+                    <a href="#" class="block">
+                        <img src="images/image5.jpg" alt="maison" class="object-cover h-[250px] w-full rounded-md">
+                    </a>
+                </article>
+                <article>
+                    <a href="#" class="block">
+                        <img src="images/image6.jpg" alt="maison" class="object-cover h-[250px] w-full rounded-md">
+                    </a>
+                    <a href="#" class="block hover:underline visited:text-violet-600">
+                        <h3>Infrastructure House</h3>
+                    </a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore consequatur, quis soluta laboriosam ullam necessitatibus, sint corporis porro voluptatum vel dolore nisi quos sunt delectus commodi quia, quo alias? Ad!</p>
+                </article>
+            </div>
+          </section>
+
+          <!-- SECTION SIX -->
+        <section id="Testimonials" class="bg-linear">
+            <header class="text-center">
+                <h2>Get Started With Home</h2>
+            </header>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt distinctio quos, magnam placeat impedit dolorum eius vel ut enim iure eaque aliquam, sint nisi ex adipisci deleniti quod recusandae earum?</p>
+            <a href="#" class="btn btn-orange mt-4">Get Started</a>
+        </section>
     </main>
+
+    <!-- FOOTER -->
+    <footer class="bg-black_footer text-white pt-16 px-5 pb-2">
+        <div class="grid grid-cols-1 md:grid-cols-[2fr_1fr_1fr] gap-6 mb-4">
+            <div>
+                <a href="index.html" class="text-xl flex items-center gap-1 mb-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 21h19.5m-18-18v18m10.5-18v18m6-13.5V21M6.75 6.75h.75m-.75 3h.75m-.75 3h.75m3-6h.75m-.75 3h.75m-.75 3h.75M6.75 21v-3.375c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21M3 3h12m-.75 4.5H21m-3.75 3.75h.008v.008h-.008v-.008Zm0 3h.008v.008h-.008v-.008Zm0 3h.008v.008h-.008v-.008Z" />
+                      </svg>              
+                        Loyer 
+                    <span class="font-bold text-orange-400">.</span> 
+                    <span class="text-orange-500">distr</span>
+                </a>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat dolore itaque laboriosam sint, reprehenderit eius obcaecati similique ut minus non omnis, quod magni voluptatem ad deserunt officiis impedit illo nobis!</p>
+            </div>
+            <div>
+                <ul class="flex flex-col gap-3">
+                    <li>
+                        <a href="#accueil" class="hover:text-orange-500">Home</a>
+                    </li>
+                    <li>
+                        <a href="#about" class="hover:text-orange-500">About</a>
+                    </li>
+                    <li>
+                        <a href="#services" class="hover:text-orange-500">Services</a>
+                    </li>
+                    <li>
+                        <a href="#feedbacks" class="hover:text-orange-500">Testimonials</a>
+                    </li>
+                    <li>
+                        <a href="#blog" class="hover:text-orange-500">Blogs</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <ul class="flex flex-col gap-3">
+                    <li>
+                        <a href="#accueil" class="hover:text-orange-500">Terms and privancy</a>
+                    </li>
+                    <li>
+                        <a href="#about" class="hover:text-orange-500">Adress</a>
+                    </li>
+                    <li>
+                        <a href="#services" class="hover:text-orange-500">Helps</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <div class="mt-4">
+            <p class="text-center">2024 | copyright - Tout les droit reservés</p>
+        </div>
+    </footer>
 </body>
 </html>
