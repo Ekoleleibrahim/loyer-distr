@@ -5,6 +5,9 @@ module.exports = {
     extend:{
       colors:{
         black_footer : '#1f1f1f'
+      },
+      fontFamily:{
+        'Poppins': 'Poppins',
       }
      }
   },
